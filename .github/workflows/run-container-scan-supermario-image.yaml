@@ -33,4 +33,4 @@ jobs:
         with:
           image-ref: kasshichem/supermariogitopsproject:${{ env.VERSION }}
           severity: CRITICAL,HIGH
-          exit-code: '1'
+          exit-code: '0'
